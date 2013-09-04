@@ -1,3 +1,15 @@
+
+
+var Views = require('./privateobjmanager.js');
+var view = require('./finalconstructor.js');
+
+var sess = { name : 'privatename' },
+    vanilla = Views(sess).ViewVanillaFive();
+
+console.log(' local : ' + vanilla.localName());
+console.log('private: ' + vanilla.privateName());
+
+/*
 var objectmanager = require('../objectmanager');
 
 // create two new constructor objects,
@@ -113,7 +125,7 @@ Array.prototype.push = function (e) {
 };
 arr.push('done');
 console.log(evil); // done
-
+*/
 
 
 //      NavTop : viewsObj.ViewNavTop(),

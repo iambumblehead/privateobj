@@ -9,7 +9,7 @@ privateobj:
   1. share data privately among objects
   2. register objects now then construct them later
 
-
+<!--
 Each time an object reference is obtained, private data is given and it is defined on the object that is returned. Valid private data is needed to obtain objects with valid private data.
 
 A breakdown of how it works:
@@ -62,9 +62,11 @@ A breakdown of how it works:
   arr.push('gotcha');
   console.log(evil); // gotcha
   ```
-
+-->
 
 [0]: http://www.bumblehead.com                            "bumblehead"
+
+<!--
 
 ---------------------------------------------------------
 #### <a id="install"></a>INSTALL:
@@ -101,7 +103,7 @@ privateobj may be downloaded directly or installed through `npm`.
  ```bash
  $ npm start
  ``` 
-
+-->
 
 <!--
 A working example can be found in the 'getstarted' directory.
@@ -164,6 +166,8 @@ Its neccessary to pass the private data to obtain reference to a private-data-ac
   
 That's the important part: 'sess' is redefined _each time_ a reference to the view object is returned.
 -->
+
+<!--
 
 ---------------------------------------------------------
 #### <a id="usage"></a>USAGE:
@@ -294,3 +298,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
